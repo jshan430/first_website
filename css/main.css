@@ -1,0 +1,40 @@
+body{
+    font-family: 'Arvo', serif;
+}
+/*
+we can override the skills section's padding by adding important
+#skills{
+    padding: 400px 0!important;
+}
+
+*/
+.height{
+    min-height: 100vh;
+}
+.title-underline{
+    width: 200px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.height-80{
+    min-height: 80vh;
+}
+
+.about-picture{
+    background: url(../img/about-bcg.jpeg);
+    /*"no matter where the bg is the img is covering it"*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Gives us the paralax effect*/
+    background-attachment: fixed;
+    
+    /* there is a shortcut introduced */
+}
+
+/**/
+#filler, #progress{
+    /* short cut introduced **/
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/projects-1.jpeg)center/cover no-repeat fixed;
+}
